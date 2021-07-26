@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    background-color: #6852A5;
+    margin-top: 40px;
+
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    color: white;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+h3 {
+    margin-left: 30px;
+}
+
+.botoes {
+    margin-bottom: 40px;
+}
+
+
+.botaoBack {
+    color: #FFF;
+    background-color: #9B8ACA;
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0px 20px 20px 0px; 
+    margin-left:-10px;
+    top: 698px;
+    width: 80px;
+}
+
+.botaoStart {
+    color: #9B8ACA;
+    background-color: white;
+    border: none;
+    height: 60px;
+    line-height: 30px;
+    padding: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px 0px 0px 20px; 
+    margin-right:-10px;
+    top: 698px;
+    float: right;
+    width: 80px;
+}
